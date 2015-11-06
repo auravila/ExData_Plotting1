@@ -3,7 +3,7 @@ library(dplyr)
 library(lubridate)
 rm(list=ls())
 ## Set working Directory
-setwd("???")
+#setwd("???")
 ## --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 hpc <- tbl_df(read.delim("household_power_consumption.txt", sep = ";", stringsAsFactors = FALSE))
 # subset
